@@ -1,0 +1,111 @@
+%---styling---
+\documentclass{article}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{multicol}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{hyperref}
+
+\titleformat{\section}
+{\huge\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{}
+{}
+{0em}
+{\underline}
+
+\titleformat{\subsubsection}[runin]
+{}
+{}
+{0em}
+{}
+
+%---begin resume---
+\begin{document}
+
+\begin{center}
+\Huge{\textbf{R\'esum\'e}} \\
+\Large{Jake Hempel -- Junior IT Professional}\\
+email - \href{mailto:jakehempel@gmail.com}{jakehempel@gmail.com}
+website - \href{jakehempel.us}{jakehempel.us}
+\end{center}
+
+\begin{multicols}{2}
+
+\section{Education}
+Rutgers School of Arts and Sciences\\*
+Information Technology and Informatics major\\
+Critical Intelligence Studies minor\\
+September 2015 - December 2019
+
+\subsection{Relevant Coursework}
+\begin{itemize}
+\item AP Computer Science
+\item Information Technology and Informatics
+\item Technical Writing Essential
+\item Computer Aided Drafting
+\item Web Design
+\item Networking and Internet Technologies
+\item Management in Technological Organizaitons
+\item Economics of Information Technology (In Progress)
+\item Information Security (In Progress)
+\end{itemize}
+
+
+\section{Skills}
+
+\iffalse
+%---Soft Skills---
+\subsection{Soft Skills}
+Technical Writing/Documentation Writing, Router Configuration, Server Administration, Raspberry Pi, Arduino
+\fi
+
+%---LANGUAGES---
+\subsection{Languages}
+\begin{description}
+\item[Programming] Python, Java, Bash, C++, Javascript, PHP, SQL
+\item[Markup] HTML, CSS, Markdown, XML, {\LaTeX}
+\end{description}
+
+%---SOFTWARE---
+\subsection{Software}
+
+\begin{description}
+\item[Programs] Microsoft Office Suite(Word, Powerpoint, Excel), Microsoft Project, Git, Photoshop, AutoCAD, PuTTY, Wireshark, Apache2, Samba, Vim.
+\item[Operating Systems] Windows (XP, Vista, 7, 8, 10), Linux (Debian, Ubuntu, Kali, Raspian), Unix,  macOS, Android. 
+\item[Content Management Systems/Frameworks] Wordpress, Drupal, Moodle, Jekyll
+\end{description}
+
+\section{Work Experience}
+
+\subsection{Passaic County Prosecutor's Office - Homeland Security}
+May 2018 - August 2018\\*
+Assisted staff with daily operations, built and delivered various content management systems (such as  Drupal and Moodle) to streamline internal administrative processes. 
+
+\subsection{Rutgers Digital Classroom Services - Build Team}
+April 2017 - Present\\*
+Work alongside senior engineers and technicians on building podiums from bare components and installing the smart-podium technology into Rutgers New Brunswick lecture halls.
+
+\subsection{Rutgers Digital Classroom Services - Support Specialist}
+August 2017 - Present\\*
+Serve as a support specialist on-call for the Rutgers DCS helpdesk. Duties include maintaining lecture room 'smart' podiums as well as working alongside professors and students to troubleshoot technology problems and educate others on how to use digital classroom technology.
+
+\subsection{Air Force ROTC}
+August 2015 - November 2016\\*
+Partook in the military leadership program offered by the Air Force Reserve Officer Training Corps at Rutgers New Brunswick. Practiced professionalism, discipline, and embodied the Air Force core values of integrity, service, and excellence.
+
+\subsection{Personal/Game Server Administrator}
+December 2012 - Present\\*
+Administrates multiple network Linux-based server computer for personal and commercial usage. Monitored and tweaked performance while assisting end-users with technical problems.  
+
+\end{multicols}
+
+\begin{center}
+\textbf{References available upon request.}
+\end{center}
+
+\end{document}
