@@ -3,9 +3,21 @@
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage{multicol}
-\usepackage[margin=0.2in]{geometry}
-\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fontawesome}
 \usepackage[none]{hyphenat}
+\usepackage{nopageno}
+\usepackage{hyperref}
+\hypersetup{
+	pdftoolbar=false,
+	pdfmenubar=false,
+	pdftitle={Jake Hempel},
+	pdfauthor={Jake Hempel},
+	pdfsubject={Resume},
+	colorlinks=false,
+	pdfnewwindow=true,
+	pdfkeywords={Information Technology} {System Administration} {Cyber Security} {Cyber} {Networking}
+}
 
 \titleformat{\section}
 {\Large\bfseries}
@@ -28,27 +40,27 @@
 %---begin resume---
 \begin{document}
 \begin{samepage}
-
 \begin{center}
-%\Huge{\textbf{R\'esum\'e}} \\
-\huge{\textbf{Jake Hempel -- Junior IT Professional}} \\*
-\large{email - \href{mailto:jakehempel@gmail.com}{jakehempel@gmail.com}
-website - \href{jakehempel.us}{jakehempel.us}}
+%\Huge{\textbf{R\'esum\'e}} \\*
+\huge{\textbf{Jake Hempel}} \\*
+\large{\faEnvelope \, \href{mailto:jakehempel@gmail.com}{jakehempel@gmail.com} 
+\faGlobe \, \href{https://jakehempel.us}{jakehempel.us}}  
+\faLinkedinSquare \, \href{https://www.linkedin.com/in/jake-hempel/}{jake-hempel}
 \end{center}
-% \begin{multicols}{2}
+ \begin{multicols}{2}
 
 \section{Objective}
-To Secure a full-time position in IT that allows me to apply my education and self-taught IT skillset that will allow me to learn and grow as a professional. 
+To secure a full-time position in IT operations and security that allow me to apply my education and self-taught IT skillset while providing mentorship that will allow me to grow as a professional.
 
-% \columnbreak
+ \columnbreak
 
 \section{Education}
 Information Technology and Informatics major\\
 Critical Intelligence Studies minor\\
-Anticipated Graduation Date -- January 2020\\
+September 2015 -- May 2019\\
 Rutgers School of Arts and Sciences
 
-% \end{multicols}
+ \end{multicols}
 
 \section{Experience}
 
@@ -97,6 +109,7 @@ Technical Writing/Documentation Writing, Router Configuration, Server Administra
 \textbf{References available upon request.}
 \end{center}
 
+\thispagestyle{empty}
 \end{samepage}
 \end{document}
 \grid
